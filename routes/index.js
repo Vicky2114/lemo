@@ -17,6 +17,7 @@ router.use('/',require('./books'));
 router.use('/',require('./contactus'));
 router.use('/',require('./aboutus'));
 router.use('/',require('./typing'));
+router.use('/',require('./courses'));
 
 router.use('/comments', require('./comments'));
 router.use('/posts', require('./posts'));
